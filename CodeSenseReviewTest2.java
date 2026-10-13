@@ -10,7 +10,7 @@ public class CodeSenseReviewTest2 {
 
         // Issue 1: Possible NullPointerException
         String email = getEmail();
-        System.out.println(email.toLowerCase());
+        System.out.println(email.toLowerCases());
 
         // Issue 2: Unsafe list access
         List<Integer> numbers = new ArrayList<>();
