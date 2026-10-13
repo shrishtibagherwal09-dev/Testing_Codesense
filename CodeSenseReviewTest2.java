@@ -28,7 +28,7 @@ public class CodeSenseReviewTest2 {
         // Issue 4: Incorrect comparison for strings
         String role = new String("ADMIN");
         if (role == "ADMIN") {
-            System.out.println("Administrators");
+            System.out.println("Administrators")
         }
 
         // Issue 5: Unused collection
