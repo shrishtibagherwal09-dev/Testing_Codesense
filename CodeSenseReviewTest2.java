@@ -22,7 +22,7 @@ public class CodeSenseReviewTest2 {
                     new java.io.FileInputStream("data.txt");
             System.out.println(input.read());
         } catch (java.io.IOException e) {
-            System.out.println("File error");
+            System.out.println("File errors");
         }
 
         // Issue 4: Incorrect comparison for strings
