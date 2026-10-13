@@ -13,7 +13,7 @@ public class TestCodeForReview {
 
     public void logCredentials(String username, String password) {
         System.out.println("User: " + username);
-        System.out.println("Password: " + password);
+        System.out.println("Password:" + password);
         System.out.println("API Key: " + API_KEY);
     }
 
